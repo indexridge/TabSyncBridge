@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TabSyncBridge</title>
+  <meta name="description" content="TabSyncBridge helps you view and close browser tabs across your own linked devices on the same private local network.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #111827;
+      --muted: #4b5563;
+      --line: #cbd5e1;
+      --soft: #eef5ff;
+      --accent: #0b63ce;
+      --accent-dark: #073a8f;
+      --danger: #b42318;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      color: var(--ink);
+      background: linear-gradient(180deg, #f8fbff 0%, #edf4fc 100%);
+    }
+
+    header,
+    main,
+    footer {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    header {
+      padding-top: 56px;
+      padding-bottom: 32px;
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      color: var(--accent-dark);
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 760px;
+      font-size: clamp(2.35rem, 7vw, 4.85rem);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 720px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: 1.25rem;
+    }
+
+    .hero-panel {
+      margin-top: 34px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .device-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .device {
+      padding: 18px;
+      min-height: 120px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--soft);
+    }
+
+    .device strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.05rem;
+    }
+
+    section {
+      padding: 34px 0;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.7rem;
+      letter-spacing: 0;
+    }
+
+    p {
+      color: var(--muted);
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--muted);
+    }
+
+    li strong {
+      display: block;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+
+    .notice {
+      padding: 18px;
+      border-left: 4px solid var(--accent);
+      background: #fff;
+      color: var(--muted);
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 16px;
+      border-radius: 8px;
+      color: #fff;
+      background: var(--accent);
+      text-decoration: none;
+    }
+
+    footer {
+      padding-top: 20px;
+      padding-bottom: 46px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 720px) {
+      header {
+        padding-top: 34px;
+      }
+
+      .device-list,
+      ul {
+        grid-template-columns: 1fr;
+      }
+
+      .lead {
+        font-size: 1.08rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">TabSyncBridge</p>
+    <h1>Local tab sync for Safari and desktop browsers.</h1>
+    <p class="lead">View tab titles, keep linked devices tidy, and close selected remote tabs across your own devices on the same private local network.</p>
+    <div class="hero-panel" aria-label="Supported browser setup">
+      <div class="device-list">
+        <div class="device">
+          <strong>iPhone app</strong>
+          Manages linked devices, subscription access, and the shared remote tab list.
+        </div>
+        <div class="device">
+          <strong>Safari extension</strong>
+          Shares Safari tab titles and handles close requests when Safari can act on them.
+        </div>
+        <div class="device">
+          <strong>Chromium extension</strong>
+          Works with Chrome, Edge, Brave, Opera, Vivaldi, and compatible Chromium browsers.
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Private by design</h2>
+      <p>TabSyncBridge is built for local-network sync. It does not require a cloud account for the core sync loop, and it does not use third-party analytics, advertising SDKs, or tracking SDKs.</p>
+      <ul>
+        <li><strong>Local network only</strong> Pair and sync between devices you control on the same private Wi-Fi network.</li>
+        <li><strong>Tab titles included</strong> See useful page titles instead of guessing from raw links.</li>
+        <li><strong>Targeted close actions</strong> Close requests are routed to the browser profile that owns the selected tab.</li>
+        <li><strong>Old profile cleanup</strong> Remove linked profiles that are no longer used.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Subscription</h2>
+      <p>TabSyncBridge is GBP 2.99 per month after a 7-day free trial. Purchases, renewals, cancellations, refunds, and restore purchases are handled by Apple through the App Store.</p>
+      <p class="notice">Cancel anytime. By subscribing, you agree to immediate access and acknowledge that you lose any statutory 14-day right to refund.</p>
+    </section>
+
+    <section>
+      <h2>Support and legal</h2>
+      <p>Use TabSyncBridge only with devices and browser profiles you own or have permission to control.</p>
+      <div class="links">
+        <a class="button" href="./support">Support</a>
+        <a href="./privacy">Privacy Policy</a>
+        <a href="./terms">Terms of Use</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: TabSyncBridge@outlook.com</p>
+  </footer>
+</body>
+</html>
