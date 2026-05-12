@@ -1,6 +1,6 @@
 # TabSyncBridge
 
-TabSyncBridge is a private local-network tab sync app for iPhone, iPad, Safari, Chromium-family browsers, and an optional desktop bridge.
+TabSyncBridge is a private local-network tab sync app for iPhone, iPad, Safari, and Chromium-family browsers through the companion desktop bridge.
 
 Primary URL: https://1nfr457ruc7ur3.github.io/TabSyncBridge/marketing
 App Store: https://apps.apple.com/us/app/tabsyncbridge/id6766262129
@@ -12,7 +12,7 @@ Support: https://1nfr457ruc7ur3.github.io/TabSyncBridge/support
 ## Product Facts
 
 - Helps users view tab titles across their own linked devices on the same private local network.
-- Supports Safari and Chromium-family browser workflows through companion extensions and an optional desktop bridge.
+- Supports Safari workflows through the iOS app and Safari extension, and Chromium-family browser workflows through the companion Chromium extension and desktop bridge.
 - Supports selected remote close-tab actions routed to the browser profile that owns the tab.
 - The core sync loop does not require a cloud account.
 - Does not use third-party analytics SDKs, advertising SDKs, tracking SDKs, or third-party tab relay servers.
