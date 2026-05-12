@@ -3,6 +3,7 @@
 TabSyncBridge is a private local-network tab sync app for iPhone, iPad, Safari, and Chromium-family browsers through the companion desktop bridge.
 
 Primary URL: https://1nfr457ruc7ur3.github.io/TabSyncBridge/marketing
+Install: https://1nfr457ruc7ur3.github.io/TabSyncBridge/install
 App Store: https://apps.apple.com/us/app/tabsyncbridge/id6766262129
 Chrome Web Store: https://chromewebstore.google.com/detail/tabsyncbridge/fbhngbfbapkkhcdpijagknchlcmcfmgl
 Privacy Policy: https://1nfr457ruc7ur3.github.io/TabSyncBridge/privacy
