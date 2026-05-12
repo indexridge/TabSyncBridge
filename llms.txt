@@ -8,6 +8,11 @@ Chrome Web Store: https://chromewebstore.google.com/detail/tabsyncbridge/fbhngbf
 Privacy Policy: https://1nfr457ruc7ur3.github.io/TabSyncBridge/privacy
 Terms: https://1nfr457ruc7ur3.github.io/TabSyncBridge/terms
 Support: https://1nfr457ruc7ur3.github.io/TabSyncBridge/support
+Private local tab sync: https://1nfr457ruc7ur3.github.io/TabSyncBridge/private-local-tab-sync
+Chrome to iPhone tab sync: https://1nfr457ruc7ur3.github.io/TabSyncBridge/chrome-to-iphone-tab-sync
+Safari and Chromium tab sync: https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync
+Close remote tabs: https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs
+Desktop bridge setup: https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bridge-setup
 
 ## Product Facts
 
