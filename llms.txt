@@ -13,7 +13,7 @@ Support: https://1nfr457ruc7ur3.github.io/TabSyncBridge/support
 
 - Helps users view tab titles across their own linked devices on the same private local network.
 - Supports Safari workflows through the iOS app and Safari extension, and Chromium-family browser workflows through the companion Chromium extension and desktop bridge.
-- Supports selected remote close-tab actions routed to the browser profile that owns the tab.
+- Supports selected remote close-tab actions routed to the browser profile that owns the tab, keeping remote tab control tied to the user's own linked devices.
 - The core sync loop does not require a cloud account.
 - Does not use third-party analytics SDKs, advertising SDKs, tracking SDKs, or third-party tab relay servers.
 - Subscription: GBP 2.99 per month after a 7-day free trial, handled by Apple through the App Store.
