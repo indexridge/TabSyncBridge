@@ -1,0 +1,38 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "TabSyncBridge Updates",
+  "home_page_url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/install",
+  "feed_url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/feed.json",
+  "description": "Product, setup, and privacy-safe marketing updates for TabSyncBridge.",
+  "language": "en-GB",
+  "items": [
+    {
+      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/install",
+      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/install",
+      "title": "Install TabSyncBridge",
+      "date_published": "2026-05-13T09:00:00Z",
+      "content_text": "Start with the iPhone app, then add Safari or Chromium browser support for private local-network tab sync."
+    },
+    {
+      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/private-local-tab-sync",
+      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/private-local-tab-sync",
+      "title": "Private Local Tab Sync Guide",
+      "date_published": "2026-05-13T09:00:00Z",
+      "content_text": "How TabSyncBridge keeps tab sync on your own private local network without a cloud account."
+    },
+    {
+      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/chrome-to-iphone-tab-sync",
+      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/chrome-to-iphone-tab-sync",
+      "title": "Chrome to iPhone Tab Sync Guide",
+      "date_published": "2026-05-13T09:00:00Z",
+      "content_text": "Set up Chromium-family browser tab sync with iPhone using TabSyncBridge."
+    },
+    {
+      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bridge-setup",
+      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bridge-setup",
+      "title": "Desktop Bridge Setup Guide",
+      "date_published": "2026-05-13T09:00:00Z",
+      "content_text": "What the desktop bridge does for Chromium-family browser workflows."
+    }
+  ]
+}

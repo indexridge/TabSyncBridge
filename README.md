@@ -27,5 +27,7 @@ Private local-network tab sync and remote tab control for your own iPhone, Safar
 - [Support](https://1nfr457ruc7ur3.github.io/TabSyncBridge/support)
 - [Privacy Policy](https://1nfr457ruc7ur3.github.io/TabSyncBridge/privacy)
 - [Terms of Use](https://1nfr457ruc7ur3.github.io/TabSyncBridge/terms)
+- [RSS feed](https://1nfr457ruc7ur3.github.io/TabSyncBridge/feed.xml)
+- [JSON feed](https://1nfr457ruc7ur3.github.io/TabSyncBridge/feed.json)
 
 TabSyncBridge is £2.99 per month after a 7-day free trial. Purchases, renewals, cancellations, refunds, and restore purchases are handled by Apple through the App Store.
