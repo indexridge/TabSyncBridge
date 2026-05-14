@@ -5,8 +5,15 @@
     <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/install</link>
     <description>Product, setup, and privacy-safe marketing updates for TabSyncBridge.</description>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 13 May 2026 09:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://1nfr457ruc7ur3.github.io/TabSyncBridge/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TabSyncBridge Support</title>
+      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/support</link>
+      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/support</guid>
+      <pubDate>Thu, 14 May 2026 12:00:00 GMT</pubDate>
+      <description>Setup, troubleshooting, Restore Purchases, and Apple-managed trial and subscription help for TabSyncBridge.</description>
+    </item>
     <item>
       <title>Install TabSyncBridge</title>
       <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/install</link>

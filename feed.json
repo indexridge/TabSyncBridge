@@ -7,6 +7,13 @@
   "language": "en-GB",
   "items": [
     {
+      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/support",
+      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/support",
+      "title": "TabSyncBridge Support",
+      "date_published": "2026-05-14T12:00:00Z",
+      "content_text": "Setup, troubleshooting, Restore Purchases, and Apple-managed trial and subscription help for TabSyncBridge."
+    },
+    {
       "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/install",
       "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/install",
       "title": "Install TabSyncBridge",
