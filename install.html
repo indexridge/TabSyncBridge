@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./public-site.css">
   <meta name="apple-itunes-app" content="app-id=6766262129, app-argument=https://1nfr457ruc7ur3.github.io/TabSyncBridge/install">
   <title>Install TabSyncBridge</title>
   <meta name="description" content="Install TabSyncBridge for private local-network tab sync between iPhone, Safari, Chromium-family browsers, and your linked desktop setup.">
@@ -28,9 +29,6 @@
     p, li { color: #4b5563; }
     .lead { max-width: 720px; font-size: 1.18rem; }
     section { padding: 24px 0; }
-    .actions, .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
-    .button { display: inline-block; border-radius: 8px; background: #0b63ce; color: #fff; padding: 13px 17px; text-decoration: none; font-weight: 800; }
-    .secondary { background: #fff; color: #0b63ce; border: 1px solid #cbd5e1; }
     .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; padding: 0; list-style: none; }
     .grid li, .notice { border: 1px solid #cbd5e1; border-radius: 8px; background: #fff; padding: 16px; }
     strong { display: block; color: #111827; margin-bottom: 4px; }
@@ -46,7 +44,7 @@
     <p class="lead">Start with the iPhone app, then add the Safari extension or Chromium extension with the desktop bridge for the browser workflow you use.</p>
     <div class="actions">
       <a class="button" href="https://apps.apple.com/us/app/tabsyncbridge/id6766262129">Install on the App Store</a>
-      <a class="button secondary" href="https://chromewebstore.google.com/detail/tabsyncbridge/fbhngbfbapkkhcdpijagknchlcmcfmgl">Add the Chromium companion</a>
+      <a class="button secondary" data-chromium-store data-store-dynamic-label="1" href="https://chromewebstore.google.com/detail/tabsyncbridge/fbhngbfbapkkhcdpijagknchlcmcfmgl">Add the Chromium companion</a>
     </div>
   </header>
 
@@ -81,5 +79,6 @@
   <footer>
     <p><a href="./privacy">Privacy Policy</a> · <a href="./terms">Terms of Use</a></p>
   </footer>
+  <script src="./chromium-store.js" defer></script>
 </body>
 </html>

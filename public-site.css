@@ -1,0 +1,59 @@
+/* TabSyncBridge GitHub Pages — shared primary/secondary buttons and action rows */
+
+.links,
+.action-row,
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.links {
+  margin-top: 18px;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.site-footer-nav {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.quick-install {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  background: #0b63ce;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.button:hover,
+.button:focus-visible {
+  background: #0956b3;
+  color: #fff;
+}
+
+.button.secondary {
+  background: #fff;
+  color: #0b63ce;
+  border-color: #cbd5e1;
+}
+
+.button.secondary:hover,
+.button.secondary:focus-visible {
+  background: #f8fbff;
+  color: #073a8f;
+}

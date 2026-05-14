@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./public-site.css">
   <meta name="apple-itunes-app" content="app-id=6766262129, app-argument=https://1nfr457ruc7ur3.github.io/TabSyncBridge/install">
   <title>Chrome to iPhone Tab Sync - TabSyncBridge</title>
   <meta name="description" content="Use TabSyncBridge to view Chrome and Chromium-family browser tab titles on iPhone through private local-network sync.">
@@ -63,9 +64,7 @@
     ol, ul { padding-left: 24px; }
     .notice, .steps li { border: 1px solid #cbd5e1; border-radius: 8px; background: #fff; padding: 16px; margin-bottom: 12px; }
     strong { color: #111827; }
-    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
     a { color: #0b63ce; font-weight: 700; }
-    .button { display: inline-block; border-radius: 8px; background: #0b63ce; color: #fff; padding: 12px 16px; text-decoration: none; }
     footer { padding-top: 16px; padding-bottom: 42px; font-size: 0.95rem; }
   </style>
 </head>
@@ -76,7 +75,7 @@
     <p class="lead">TabSyncBridge links your iPhone app with the Chromium extension and desktop bridge so you can view desktop browser tab titles on your iPhone over your private local network.</p>
     <div class="links">
       <a class="button" href="https://apps.apple.com/us/app/tabsyncbridge/id6766262129">View on the App Store</a>
-      <a href="https://chromewebstore.google.com/detail/tabsyncbridge/fbhngbfbapkkhcdpijagknchlcmcfmgl">Install the Chromium extension</a>
+      <a class="button secondary" data-chromium-store data-store-dynamic-label="1" href="https://chromewebstore.google.com/detail/tabsyncbridge/fbhngbfbapkkhcdpijagknchlcmcfmgl">Add the Chromium companion</a>
     </div>
   </header>
 
@@ -107,7 +106,13 @@
   </main>
 
   <footer>
-    <p><a href="./support">Support</a> · <a href="./privacy">Privacy Policy</a> · <a href="./terms">Terms of Use</a></p>
+    <nav class="action-row site-footer-nav" aria-label="Site footer">
+      <a class="button" href="./install">Install TabSyncBridge</a>
+      <a class="button secondary" href="./support">Support</a>
+      <a class="button secondary" href="./privacy">Privacy Policy</a>
+      <a class="button secondary" href="./terms">Terms of Use</a>
+    </nav>
   </footer>
+  <script src="./chromium-store.js" defer></script>
 </body>
 </html>
