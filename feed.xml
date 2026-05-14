@@ -42,5 +42,26 @@
       <pubDate>Wed, 13 May 2026 09:00:00 GMT</pubDate>
       <description>What the desktop bridge does for Chromium-family browser workflows.</description>
     </item>
+    <item>
+      <title>Safari and Chromium Tab Sync Guide</title>
+      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync</link>
+      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 GMT</pubDate>
+      <description>How iPhone Safari and desktop Chromium-family browsers work together with TabSyncBridge.</description>
+    </item>
+    <item>
+      <title>Close Remote Tabs Guide</title>
+      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs</link>
+      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 GMT</pubDate>
+      <description>How TabSyncBridge routes close-tab requests to the browser profile that owns the tab.</description>
+    </item>
+    <item>
+      <title>Sync Tabs Without a Cloud Account</title>
+      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud</link>
+      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud</guid>
+      <pubDate>Wed, 14 May 2026 12:00:00 GMT</pubDate>
+      <description>How TabSyncBridge syncs browser tabs across iPhone, Safari, and Chromium-family browsers on your private local network without a cloud account.</description>
+    </item>
   </channel>
 </rss>

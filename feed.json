@@ -40,6 +40,27 @@
       "title": "Desktop Bridge Setup Guide",
       "date_published": "2026-05-13T09:00:00Z",
       "content_text": "What the desktop bridge does for Chromium-family browser workflows."
+    },
+    {
+      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync",
+      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync",
+      "title": "Safari and Chromium Tab Sync Guide",
+      "date_published": "2026-05-13T09:00:00Z",
+      "content_text": "How iPhone Safari and desktop Chromium-family browsers work together with TabSyncBridge."
+    },
+    {
+      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs",
+      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs",
+      "title": "Close Remote Tabs Guide",
+      "date_published": "2026-05-13T09:00:00Z",
+      "content_text": "How TabSyncBridge routes close-tab requests to the browser profile that owns the tab."
+    },
+    {
+      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud",
+      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud",
+      "title": "Sync Tabs Without a Cloud Account",
+      "date_published": "2026-05-14T12:00:00Z",
+      "content_text": "How TabSyncBridge syncs browser tabs across iPhone, Safari, and Chromium-family browsers on your private local network without a cloud account."
     }
   ]
 }

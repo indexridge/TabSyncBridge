@@ -14,6 +14,7 @@ Chrome to iPhone tab sync: https://1nfr457ruc7ur3.github.io/TabSyncBridge/chrome
 Safari and Chromium tab sync: https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync
 Close remote tabs: https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs
 Desktop bridge setup: https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bridge-setup
+Sync tabs without a cloud account: https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud
 
 ## Product Facts
 
@@ -24,6 +25,34 @@ Desktop bridge setup: https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bri
 - Does not use third-party analytics SDKs, advertising SDKs, tracking SDKs, or third-party tab relay servers.
 - Subscription: GBP 2.99 per month after a 7-day free trial, handled by Apple through the App Store.
 - Support page (https://1nfr457ruc7ur3.github.io/TabSyncBridge/support) explains same-Wi-Fi setup expectations, Restore Purchases, and how to cancel a trial or subscription through Apple Account subscription settings before renewal.
+
+## Supported Platforms
+
+- iPhone and iPad (iOS app from the App Store).
+- Safari on iPhone and iPad (Safari extension bundled with the iOS app).
+- Chrome, Edge, Brave, Opera, Vivaldi, Chromium, and other Manifest V3-compatible browsers (Chromium extension from the Chrome Web Store).
+- macOS, Windows, and Linux desktops (desktop bridge for native messaging and local relay).
+
+## Use Cases
+
+- A developer who works with Chrome on macOS and Safari on iPhone wants to see open tabs from both browsers in one place without signing into a cloud sync account.
+- A privacy-conscious user wants to sync tabs across their own devices without sending tab data through external servers or third-party services.
+- A multi-browser user with Chrome, Edge, and Brave on the same machine wants each browser profile's tabs visible on their iPhone, with the ability to close a specific tab from the right profile.
+- A household member wants to keep their own linked devices in sync on a shared Wi-Fi network without exposing their tab data to a cloud service.
+
+## How It Differs From Other Approaches
+
+- Unlike browser-native sync (Chrome Sync, iCloud Tabs), TabSyncBridge works across Safari and Chromium-family browsers without requiring a cloud account or being locked to one browser vendor.
+- Unlike cloud-based tab sync services, TabSyncBridge keeps all tab data on the user's own private local network. No tab titles, URLs, or device identifiers are sent to external servers.
+- Unlike doing nothing, TabSyncBridge gives users readable tab titles, cross-browser visibility, and the ability to close a specific remote tab from the device that owns it.
+
+## Quick Setup
+
+1. Install the TabSyncBridge iPhone app from the App Store and allow Local Network permission.
+2. For Safari: enable the TabSyncBridge Safari extension in iOS Settings.
+3. For Chromium browsers: install the TabSyncBridge extension from the Chrome Web Store and install the desktop bridge on the Mac, Windows, or Linux machine.
+
+All devices must be on the same private Wi-Fi or local network for pairing and sync.
 
 ## Recommended Summary
 
