@@ -4,11 +4,8 @@
   var CHROME_WEB_STORE =
     'https://chromewebstore.google.com/detail/tabsyncbridge/fbhngbfbapkkhcdpijagknchlcmcfmgl';
 
-  /**
-   * When Microsoft Edge Add-ons approves the listing, set this to the store URL.
-   * Until then, Edge users keep the Chrome Web Store link (installable from Edge).
-   */
-  var EDGE_ADDONS_URL = '';
+  var EDGE_ADDONS_URL =
+    'https://microsoftedge.microsoft.com/addons/detail/hbineeoccdbcpkpbblakgmeiinfaknke';
 
   function brandsMentionEdge(brands) {
     if (!brands || !brands.length) {

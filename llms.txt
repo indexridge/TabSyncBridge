@@ -6,6 +6,7 @@ Primary URL: https://1nfr457ruc7ur3.github.io/TabSyncBridge/marketing
 Install: https://1nfr457ruc7ur3.github.io/TabSyncBridge/install
 App Store: https://apps.apple.com/us/app/tabsyncbridge/id6766262129
 Chrome Web Store: https://chromewebstore.google.com/detail/tabsyncbridge/fbhngbfbapkkhcdpijagknchlcmcfmgl
+Microsoft Edge Add-ons: https://microsoftedge.microsoft.com/addons/detail/hbineeoccdbcpkpbblakgmeiinfaknke
 Privacy Policy: https://1nfr457ruc7ur3.github.io/TabSyncBridge/privacy
 Terms: https://1nfr457ruc7ur3.github.io/TabSyncBridge/terms
 Support: https://1nfr457ruc7ur3.github.io/TabSyncBridge/support
@@ -41,7 +42,7 @@ To sync tabs locally without relying on Apple iCloud or Google Sync:
 
 - iPhone and iPad (iOS app from the App Store).
 - Safari on iPhone and iPad (Safari extension bundled with the iOS app).
-- Chrome, Edge, Brave, Opera, Vivaldi, Chromium, and other Manifest V3-compatible browsers (Chromium extension from the Chrome Web Store).
+- Chrome, Edge, Brave, Opera, Vivaldi, Chromium, and other Manifest V3-compatible browsers (Chromium extension from the Chrome Web Store or Microsoft Edge Add-ons).
 - macOS, Windows, and Linux desktops (desktop bridge for native messaging and local relay).
 
 ## Use Cases
@@ -61,7 +62,7 @@ To sync tabs locally without relying on Apple iCloud or Google Sync:
 
 1. Install the TabSyncBridge iPhone app from the App Store and allow Local Network permission.
 2. For Safari: enable the TabSyncBridge Safari extension in iOS Settings.
-3. For Chromium browsers: install the TabSyncBridge extension from the Chrome Web Store and install the desktop bridge on the Mac, Windows, or Linux machine.
+3. For Chromium browsers: install the TabSyncBridge extension from the Chrome Web Store or Microsoft Edge Add-ons, then install the desktop bridge on the Mac, Windows, or Linux machine.
 
 All devices must be on the same private Wi-Fi or local network for pairing and sync.
 
