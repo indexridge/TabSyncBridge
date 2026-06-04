@@ -35,7 +35,7 @@ To sync tabs locally without relying on Apple iCloud or Google Sync:
 - Supports selected remote close-tab actions routed to the browser profile that owns the tab, keeping remote tab control tied to the user's own linked devices.
 - The core sync loop does not require a cloud account.
 - Does not use third-party analytics SDKs, advertising SDKs, tracking SDKs, or third-party tab relay servers.
-- Subscription: GBP 2.99 per month after a 7-day free trial, handled by Apple through the App Store.
+- Subscription: GBP 2.99 per month after a 3-month free trial, handled by Apple through the App Store.
 - Support page (https://1nfr457ruc7ur3.github.io/TabSyncBridge/support) explains same-Wi-Fi setup expectations, Restore Purchases, and how to cancel a trial or subscription through Apple Account subscription settings before renewal.
 
 ## Supported Platforms
