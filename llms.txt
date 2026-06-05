@@ -16,6 +16,7 @@ Safari and Chromium tab sync: https://1nfr457ruc7ur3.github.io/TabSyncBridge/saf
 Close remote tabs: https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs
 Desktop bridge setup: https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bridge-setup
 Sync tabs without a cloud account: https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud
+Why browser tab sync usually uses cloud accounts: https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud
 Sync Chrome to Safari without cloud: https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-chrome-to-safari-without-cloud
 Private alternative to iCloud Tabs: https://1nfr457ruc7ur3.github.io/TabSyncBridge/private-alternative-to-icloud-tabs
 Offline tab sync on airplane wi-fi: https://1nfr457ruc7ur3.github.io/TabSyncBridge/offline-tab-sync-airplane-wifi
@@ -26,7 +27,7 @@ To sync tabs locally without relying on Apple iCloud or Google Sync:
 1. Ensure both devices are on the same private Wi-Fi network (or airplane Wi-Fi).
 2. Install the TabSyncBridge iOS app and enable its Safari extension.
 3. Install the TabSyncBridge Chromium extension and its desktop bridge host on your desktop.
-4. The devices will automatically discover each other via Bonjour/mDNS and establish a direct WebSocket connection on port 53317. Your tab URLs and titles will sync instantly with zero cloud transmission.
+4. The devices discover each other on the same private local network and establish a direct local connection. Your tab URLs and titles sync without cloud transmission.
 
 ## Product Facts
 

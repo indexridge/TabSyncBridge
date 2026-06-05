@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./public-site.css">
+  <meta name="apple-itunes-app" content="app-id=6766262129, app-argument=https://1nfr457ruc7ur3.github.io/TabSyncBridge/install">
+  <title>Why Browser Tab Sync Usually Uses Cloud Accounts - TabSyncBridge</title>
+  <meta name="description" content="A practical explanation of why browser tab sync often uses cloud accounts, and how TabSyncBridge keeps Safari and Chromium tab sync on your private local network.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud">
+  <link rel="alternate" type="application/rss+xml" title="TabSyncBridge Updates" href="https://1nfr457ruc7ur3.github.io/TabSyncBridge/feed.xml">
+  <link rel="alternate" type="application/feed+json" title="TabSyncBridge Updates" href="https://1nfr457ruc7ur3.github.io/TabSyncBridge/feed.json">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Why Browser Tab Sync Usually Uses Cloud Accounts - TabSyncBridge">
+  <meta property="og:description" content="How account-backed tab sync works, why it is common, and how local-network sync keeps tab data between your own linked devices.">
+  <meta property="og:url" content="https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud">
+  <meta property="og:image" content="https://1nfr457ruc7ur3.github.io/TabSyncBridge/tabsyncbridge-app-icon-1024.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Why Browser Tab Sync Usually Uses Cloud Accounts - TabSyncBridge">
+  <meta name="twitter:description" content="How account-backed tab sync works, why it is common, and how local-network sync keeps tab data between your own linked devices.">
+  <meta name="twitter:image" content="https://1nfr457ruc7ur3.github.io/TabSyncBridge/tabsyncbridge-app-icon-1024.png">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Why Browser Tab Sync Usually Uses Cloud Accounts",
+      "description": "A practical explanation of why browser tab sync often uses cloud accounts, and how TabSyncBridge keeps Safari and Chromium tab sync on your private local network.",
+      "datePublished": "2026-06-05",
+      "dateModified": "2026-06-05",
+      "author": {
+        "@type": "Person",
+        "name": "Ahmir Arif"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TabSyncBridge",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/tabsyncbridge-app-icon-1024.png"
+        }
+      },
+      "mainEntityOfPage": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does browser tab sync usually use a cloud account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cloud accounts give browsers a persistent identity and an always-available place to exchange tab state when devices are on different networks or asleep."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can browser tabs sync without the cloud?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when the devices are on the same private local network. TabSyncBridge pairs your own linked devices locally and shares tab state directly between them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the tradeoff of local-network tab sync?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Local-network sync avoids cloud accounts and external relay servers, but your devices need to be on the same private local network for live pairing and sync."
+          }
+        }
+      ]
+    }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #111827;
+      --muted: #4b5563;
+      --line: #cbd5e1;
+      --soft: #eef5ff;
+      --accent: #0b63ce;
+      --accent-dark: #073a8f;
+      --ok: #0f766e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.58;
+      color: var(--ink);
+      background: #f7fbff;
+    }
+
+    header,
+    main,
+    footer {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 0 22px;
+    }
+
+    header {
+      padding-top: 44px;
+      padding-bottom: 24px;
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+
+    .app-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+    }
+
+    .brand-row a {
+      color: var(--accent-dark);
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--ok);
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      max-width: 780px;
+      margin: 0;
+      font-size: clamp(2.15rem, 7vw, 4.25rem);
+      line-height: 1.04;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 1.18rem;
+    }
+
+    article {
+      padding: 12px 0 8px;
+    }
+
+    section {
+      padding: 24px 0;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.55rem;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 1.12rem;
+      letter-spacing: 0;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .summary-grid,
+    .compare-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .summary-grid li,
+    .compare-card,
+    .notice {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 16px;
+    }
+
+    .compare-card h3,
+    .summary-grid strong {
+      display: block;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+
+    .notice {
+      border-left: 4px solid var(--accent);
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    footer {
+      padding-top: 16px;
+      padding-bottom: 42px;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 720px) {
+      header {
+        padding-top: 32px;
+      }
+
+      .summary-grid,
+      .compare-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand-row">
+      <img class="app-icon" src="./tabsyncbridge-app-icon-1024.png" alt="" width="44" height="44">
+      <a href="./marketing">TabSyncBridge</a>
+    </div>
+    <p class="eyebrow">Technical explainer</p>
+    <h1>Why browser tab sync usually uses cloud accounts.</h1>
+    <p class="lead">Most cross-device tab sync systems use an account-backed service because it is convenient when devices are far apart, asleep, or on different networks. TabSyncBridge chooses a narrower path: private local-network sync between your own linked devices.</p>
+    <div class="links">
+      <a class="button" href="./install">Install TabSyncBridge</a>
+      <a class="button secondary" href="./sync-tabs-without-cloud">Sync tabs without cloud</a>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section>
+        <h2>The usual cloud-sync model</h2>
+        <p>Cloud tab sync solves a hard coordination problem. Your phone and laptop may not be online at the same time. They may be on different networks. One browser may be suspended in the background. A cloud account gives every device a shared identity and an always-available place to upload and fetch tab state.</p>
+        <ul class="summary-grid">
+          <li><strong>Persistent identity</strong> Devices can recognise one another through the same account, even after reconnecting later.</li>
+          <li><strong>Always-on relay</strong> A hosted service can receive updates from one device and deliver them when another device returns.</li>
+          <li><strong>Cross-network reach</strong> Devices do not need to be on the same Wi-Fi network to exchange data.</li>
+          <li><strong>Simple setup</strong> Signing into one vendor account is usually easier than setting up a local bridge.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>The privacy tradeoff</h2>
+        <p>Tab sync data is not just a list of windows. Page titles and URLs can reveal research topics, work projects, shopping, health searches, and personal reading habits. Account-backed sync can be useful, but it also means tab metadata leaves your devices so it can be stored, routed, and restored later.</p>
+        <p>That tradeoff is reasonable for many people. It is not ideal for users who want their tab list to stay inside their own environment, or for people who switch between Safari on iPhone and Chromium-family browsers on desktop without wanting another cloud sync account in the middle.</p>
+      </section>
+
+      <section>
+        <h2>How local-network tab sync works instead</h2>
+        <p>Local-network sync narrows the problem. Instead of trying to reach every device from anywhere, TabSyncBridge assumes the devices you want to sync are nearby and on the same private local network. That lets the app pair your own devices directly and exchange tab snapshots without a third-party relay.</p>
+        <ul>
+          <li>The iPhone or iPad app manages linked devices and subscription access.</li>
+          <li>The Safari extension shares Safari tab titles through the app.</li>
+          <li>The Chromium extension collects eligible desktop browser tabs and talks to the desktop bridge.</li>
+          <li>The desktop bridge connects the browser companion to the iPhone or iPad app on the local network.</li>
+          <li>Close-tab requests are routed back to the browser profile or device that owns the selected tab.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>What TabSyncBridge keeps local</h2>
+        <div class="compare-grid">
+          <div class="compare-card">
+            <h3>Tab state</h3>
+            <p>Tab titles, URLs, device labels, profile labels, and connection state are used for local tab sync and remote tab control across your own linked devices.</p>
+          </div>
+          <div class="compare-card">
+            <h3>Remote actions</h3>
+            <p>Open and close actions stay tied to the device or browser profile that owns the tab. The app does not use an external tab relay service.</p>
+          </div>
+          <div class="compare-card">
+            <h3>Product analytics</h3>
+            <p>TabSyncBridge does not include third-party analytics SDKs, advertising SDKs, tracking SDKs, or link shorteners.</p>
+          </div>
+          <div class="compare-card">
+            <h3>Account model</h3>
+            <p>The core sync loop does not require a cloud account. Paid access is handled by Apple through the App Store subscription flow.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>The honest limitations</h2>
+        <p>Local sync is deliberately narrower than cloud sync. Your devices need to be on the same private local network for live pairing and updates. Chromium-family desktop browsers also need the companion extension and desktop bridge, because browser extensions cannot do every native networking task on their own.</p>
+        <p>In exchange, you get a private local workflow for seeing Safari and desktop Chromium tabs together, recognising tabs by title, and closing selected remote tabs on your own linked devices without routing tab data through a cloud sync service.</p>
+      </section>
+
+      <section>
+        <h2>When local sync is the right fit</h2>
+        <ul>
+          <li>You mainly switch between devices on the same home, office, or travel network.</li>
+          <li>You use iPhone Safari plus Chrome, Edge, Brave, Opera, Vivaldi, or another Chromium-family desktop browser.</li>
+          <li>You want tab titles and selected remote close actions without creating another cloud sync account.</li>
+          <li>You are comfortable installing a small desktop bridge for the browser companion workflow.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Start with the install guide</h2>
+        <p>TabSyncBridge is £2.99 per month after a 3-month free trial. Purchases, renewals, cancellations, refunds, and restore purchases are handled by Apple through the App Store.</p>
+        <p class="notice">Cancel anytime. By subscribing, you agree to immediate access and acknowledge that you lose any statutory 14-day right to refund.</p>
+        <div class="links">
+          <a class="button" href="./install">Install TabSyncBridge</a>
+          <a class="button secondary" href="./desktop-bridge-setup">Desktop bridge setup</a>
+          <a class="button secondary" href="./privacy">Privacy Policy</a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <nav class="action-row site-footer-nav" aria-label="Site footer">
+      <a class="button" href="./install">Install TabSyncBridge</a>
+      <a class="button secondary" href="./support">Support</a>
+      <a class="button secondary" href="./terms">Terms of Use</a>
+    </nav>
+  </footer>
+</body>
+</html>

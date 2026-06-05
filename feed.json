@@ -7,6 +7,13 @@
   "language": "en-GB",
   "items": [
     {
+      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud",
+      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud",
+      "title": "Why Browser Tab Sync Usually Uses Cloud Accounts",
+      "date_published": "2026-06-05T12:00:00Z",
+      "content_text": "Why browser tab sync often uses cloud accounts, and how TabSyncBridge keeps Safari and Chromium tab sync on your private local network."
+    },
+    {
       "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/support",
       "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/support",
       "title": "TabSyncBridge Support",

@@ -5,8 +5,15 @@
     <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/install</link>
     <description>Product, setup, and privacy-safe marketing updates for TabSyncBridge.</description>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 21 May 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://1nfr457ruc7ur3.github.io/TabSyncBridge/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Browser Tab Sync Usually Uses Cloud Accounts</title>
+      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud</link>
+      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud</guid>
+      <pubDate>Fri, 05 Jun 2026 12:00:00 GMT</pubDate>
+      <description>Why browser tab sync often uses cloud accounts, and how TabSyncBridge keeps Safari and Chromium tab sync on your private local network.</description>
+    </item>
     <item>
       <title>TabSyncBridge Support</title>
       <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/support</link>
