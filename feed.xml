@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TabSyncBridge Updates</title>
-    <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/install</link>
+    <link>https://indexridge.github.io/TabSyncBridge/install</link>
     <description>Product, setup, and privacy-safe marketing updates for TabSyncBridge.</description>
     <language>en-gb</language>
     <lastBuildDate>Fri, 05 Jun 2026 12:00:00 GMT</lastBuildDate>
-    <atom:link href="https://1nfr457ruc7ur3.github.io/TabSyncBridge/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://indexridge.github.io/TabSyncBridge/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Browser Tab Sync Usually Uses Cloud Accounts</title>
-      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud</link>
-      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud</guid>
+      <link>https://indexridge.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud</guid>
       <pubDate>Fri, 05 Jun 2026 12:00:00 GMT</pubDate>
       <description>Why browser tab sync often uses cloud accounts, and how TabSyncBridge keeps Safari and Chromium tab sync on your private local network.</description>
     </item>
     <item>
       <title>TabSyncBridge Support</title>
-      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/support</link>
-      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/support</guid>
+      <link>https://indexridge.github.io/TabSyncBridge/support</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/support</guid>
       <pubDate>Thu, 21 May 2026 12:00:00 GMT</pubDate>
       <description>Setup, troubleshooting, Restore Purchases, and Apple-managed trial and subscription help for TabSyncBridge.</description>
     </item>
     <item>
       <title>Install TabSyncBridge</title>
-      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/install</link>
-      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/install</guid>
+      <link>https://indexridge.github.io/TabSyncBridge/install</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/install</guid>
       <pubDate>Wed, 13 May 2026 09:00:00 GMT</pubDate>
       <description>Start with the iPhone app, then add Safari or Chromium browser support for private local-network tab sync.</description>
     </item>
     <item>
       <title>Private Local Tab Sync Guide</title>
-      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/private-local-tab-sync</link>
-      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/private-local-tab-sync</guid>
+      <link>https://indexridge.github.io/TabSyncBridge/private-local-tab-sync</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/private-local-tab-sync</guid>
       <pubDate>Wed, 13 May 2026 09:00:00 GMT</pubDate>
       <description>How TabSyncBridge keeps tab sync on your own private local network without a cloud account.</description>
     </item>
     <item>
       <title>Chrome to iPhone Tab Sync Guide</title>
-      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/chrome-to-iphone-tab-sync</link>
-      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/chrome-to-iphone-tab-sync</guid>
+      <link>https://indexridge.github.io/TabSyncBridge/chrome-to-iphone-tab-sync</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/chrome-to-iphone-tab-sync</guid>
       <pubDate>Wed, 13 May 2026 09:00:00 GMT</pubDate>
       <description>Set up Chromium-family browser tab sync with iPhone using TabSyncBridge.</description>
     </item>
     <item>
       <title>Desktop Bridge Setup Guide</title>
-      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bridge-setup</link>
-      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bridge-setup</guid>
+      <link>https://indexridge.github.io/TabSyncBridge/desktop-bridge-setup</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/desktop-bridge-setup</guid>
       <pubDate>Wed, 13 May 2026 09:00:00 GMT</pubDate>
       <description>What the desktop bridge does for Chromium-family browser workflows.</description>
     </item>
     <item>
       <title>Safari and Chromium Tab Sync Guide</title>
-      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync</link>
-      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync</guid>
+      <link>https://indexridge.github.io/TabSyncBridge/safari-chrome-tab-sync</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/safari-chrome-tab-sync</guid>
       <pubDate>Wed, 13 May 2026 09:00:00 GMT</pubDate>
       <description>How iPhone Safari and desktop Chromium-family browsers work together with TabSyncBridge.</description>
     </item>
     <item>
       <title>Close Remote Tabs Guide</title>
-      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs</link>
-      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs</guid>
+      <link>https://indexridge.github.io/TabSyncBridge/close-remote-tabs</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/close-remote-tabs</guid>
       <pubDate>Wed, 13 May 2026 09:00:00 GMT</pubDate>
       <description>How TabSyncBridge routes close-tab requests to the browser profile that owns the tab.</description>
     </item>
     <item>
       <title>Sync Tabs Without a Cloud Account</title>
-      <link>https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud</link>
-      <guid isPermaLink="true">https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud</guid>
+      <link>https://indexridge.github.io/TabSyncBridge/sync-tabs-without-cloud</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/sync-tabs-without-cloud</guid>
       <pubDate>Wed, 14 May 2026 12:00:00 GMT</pubDate>
       <description>How TabSyncBridge syncs browser tabs across iPhone, Safari, and Chromium-family browsers on your private local network without a cloud account.</description>
     </item>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://1nfr457ruc7ur3.github.io/TabSyncBridge/sitemap.xml
+Sitemap: https://indexridge.github.io/TabSyncBridge/sitemap.xml

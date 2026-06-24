@@ -1,70 +1,70 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "TabSyncBridge Updates",
-  "home_page_url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/install",
-  "feed_url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/feed.json",
+  "home_page_url": "https://indexridge.github.io/TabSyncBridge/install",
+  "feed_url": "https://indexridge.github.io/TabSyncBridge/feed.json",
   "description": "Product, setup, and privacy-safe marketing updates for TabSyncBridge.",
   "language": "en-GB",
   "items": [
     {
-      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud",
-      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud",
+      "id": "https://indexridge.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud",
+      "url": "https://indexridge.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud",
       "title": "Why Browser Tab Sync Usually Uses Cloud Accounts",
       "date_published": "2026-06-05T12:00:00Z",
       "content_text": "Why browser tab sync often uses cloud accounts, and how TabSyncBridge keeps Safari and Chromium tab sync on your private local network."
     },
     {
-      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/support",
-      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/support",
+      "id": "https://indexridge.github.io/TabSyncBridge/support",
+      "url": "https://indexridge.github.io/TabSyncBridge/support",
       "title": "TabSyncBridge Support",
       "date_published": "2026-05-21T12:00:00Z",
       "content_text": "Setup, troubleshooting, Restore Purchases, and Apple-managed trial and subscription help for TabSyncBridge."
     },
     {
-      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/install",
-      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/install",
+      "id": "https://indexridge.github.io/TabSyncBridge/install",
+      "url": "https://indexridge.github.io/TabSyncBridge/install",
       "title": "Install TabSyncBridge",
       "date_published": "2026-05-21T09:00:00Z",
       "content_text": "Start with the iPhone app, then add Safari or Chromium browser support for private local-network tab sync."
     },
     {
-      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/private-local-tab-sync",
-      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/private-local-tab-sync",
+      "id": "https://indexridge.github.io/TabSyncBridge/private-local-tab-sync",
+      "url": "https://indexridge.github.io/TabSyncBridge/private-local-tab-sync",
       "title": "Private Local Tab Sync Guide",
       "date_published": "2026-05-21T09:00:00Z",
       "content_text": "How TabSyncBridge keeps tab sync on your own private local network without a cloud account."
     },
     {
-      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/chrome-to-iphone-tab-sync",
-      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/chrome-to-iphone-tab-sync",
+      "id": "https://indexridge.github.io/TabSyncBridge/chrome-to-iphone-tab-sync",
+      "url": "https://indexridge.github.io/TabSyncBridge/chrome-to-iphone-tab-sync",
       "title": "Chrome to iPhone Tab Sync Guide",
       "date_published": "2026-05-21T09:00:00Z",
       "content_text": "Set up Chromium-family browser tab sync with iPhone using TabSyncBridge."
     },
     {
-      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bridge-setup",
-      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/desktop-bridge-setup",
+      "id": "https://indexridge.github.io/TabSyncBridge/desktop-bridge-setup",
+      "url": "https://indexridge.github.io/TabSyncBridge/desktop-bridge-setup",
       "title": "Desktop Bridge Setup Guide",
       "date_published": "2026-05-21T09:00:00Z",
       "content_text": "What the desktop bridge does for Chromium-family browser workflows."
     },
     {
-      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync",
-      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/safari-chrome-tab-sync",
+      "id": "https://indexridge.github.io/TabSyncBridge/safari-chrome-tab-sync",
+      "url": "https://indexridge.github.io/TabSyncBridge/safari-chrome-tab-sync",
       "title": "Safari and Chromium Tab Sync Guide",
       "date_published": "2026-05-21T09:00:00Z",
       "content_text": "How iPhone Safari and desktop Chromium-family browsers work together with TabSyncBridge."
     },
     {
-      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs",
-      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/close-remote-tabs",
+      "id": "https://indexridge.github.io/TabSyncBridge/close-remote-tabs",
+      "url": "https://indexridge.github.io/TabSyncBridge/close-remote-tabs",
       "title": "Close Remote Tabs Guide",
       "date_published": "2026-05-21T09:00:00Z",
       "content_text": "How TabSyncBridge routes close-tab requests to the browser profile that owns the tab."
     },
     {
-      "id": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud",
-      "url": "https://1nfr457ruc7ur3.github.io/TabSyncBridge/sync-tabs-without-cloud",
+      "id": "https://indexridge.github.io/TabSyncBridge/sync-tabs-without-cloud",
+      "url": "https://indexridge.github.io/TabSyncBridge/sync-tabs-without-cloud",
       "title": "Sync Tabs Without a Cloud Account",
       "date_published": "2026-05-21T12:00:00Z",
       "content_text": "How TabSyncBridge syncs browser tabs across iPhone, Safari, and Chromium-family browsers on your private local network without a cloud account."
