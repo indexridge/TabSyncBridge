@@ -7,6 +7,13 @@
   "language": "en-GB",
   "items": [
     {
+      "id": "https://indexridge.github.io/TabSyncBridge/chrome-safari-tab-sync-comparison",
+      "url": "https://indexridge.github.io/TabSyncBridge/chrome-safari-tab-sync-comparison",
+      "title": "Chrome and Safari Tab Sync Comparison",
+      "date_published": "2026-09-12T12:00:00Z",
+      "content_text": "Compare iCloud Tabs, Chrome Sync, saved sessions, and TabSyncBridge for people using iPhone Safari with Chrome or Edge on a computer."
+    },
+    {
       "id": "https://indexridge.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud",
       "url": "https://indexridge.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud",
       "title": "Why Browser Tab Sync Usually Uses Cloud Accounts",

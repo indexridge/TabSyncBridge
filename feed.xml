@@ -8,6 +8,13 @@
     <lastBuildDate>Fri, 05 Jun 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://indexridge.github.io/TabSyncBridge/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Chrome and Safari Tab Sync Comparison</title>
+      <link>https://indexridge.github.io/TabSyncBridge/chrome-safari-tab-sync-comparison</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/chrome-safari-tab-sync-comparison</guid>
+      <pubDate>Sat, 12 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Compare iCloud Tabs, Chrome Sync, saved sessions, and TabSyncBridge for people using iPhone Safari with Chrome or Edge on a computer.</description>
+    </item>
+    <item>
       <title>Why Browser Tab Sync Usually Uses Cloud Accounts</title>
       <link>https://indexridge.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud</link>
       <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/why-browser-tab-sync-uses-cloud</guid>
