@@ -7,6 +7,13 @@
   "language": "en-GB",
   "items": [
     {
+      "id": "https://indexridge.github.io/TabSyncBridge/move-from-android-to-iphone-tabs",
+      "url": "https://indexridge.github.io/TabSyncBridge/move-from-android-to-iphone-tabs",
+      "title": "Moving from Android to iPhone: Keep Your Browser Workflow",
+      "date_published": "2026-09-14T12:00:00Z",
+      "content_text": "A practical guide to the browser-tab part of an Android-to-iPhone move, without claiming to transfer Android browser data."
+    },
+    {
       "id": "https://indexridge.github.io/TabSyncBridge/chrome-safari-tab-sync-comparison",
       "url": "https://indexridge.github.io/TabSyncBridge/chrome-safari-tab-sync-comparison",
       "title": "Chrome and Safari Tab Sync Comparison",

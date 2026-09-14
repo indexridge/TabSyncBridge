@@ -8,6 +8,13 @@
     <lastBuildDate>Fri, 05 Jun 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://indexridge.github.io/TabSyncBridge/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Moving from Android to iPhone: Keep Your Browser Workflow</title>
+      <link>https://indexridge.github.io/TabSyncBridge/move-from-android-to-iphone-tabs</link>
+      <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/move-from-android-to-iphone-tabs</guid>
+      <pubDate>Mon, 14 Sep 2026 12:00:00 GMT</pubDate>
+      <description>A practical guide to the browser-tab part of an Android-to-iPhone move, without claiming to transfer Android browser data.</description>
+    </item>
+    <item>
       <title>Chrome and Safari Tab Sync Comparison</title>
       <link>https://indexridge.github.io/TabSyncBridge/chrome-safari-tab-sync-comparison</link>
       <guid isPermaLink="true">https://indexridge.github.io/TabSyncBridge/chrome-safari-tab-sync-comparison</guid>
